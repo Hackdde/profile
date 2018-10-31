@@ -2,7 +2,11 @@ body {
   color: rgb(110, 110, 110);
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(225, 225, 225);
-  background-image: url(images/EH.jpg);
+  background-image: url(images/peioend.jpg);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
 }
 
 h1 {
@@ -32,6 +36,10 @@ img {
   border-radius: 3px;
 }
 
+p {
+  text-align: justify;
+}
+
 #peio {
   border-radius: 50%;
   width: 200px;
@@ -50,7 +58,12 @@ img {
   text-align: center;
 }
 
-.list-inline{
+/*.list-inline{
   text-decoration: none;
   list-style: none;
+}*/
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
 }
